@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styling/style.css">
+</head>
+<body class="font-sans">
+<header class="bg-gray-800 text-white p-4">
+  <nav>
+    <ul class="flex space-x-4">
+      <li>
+        <a href="#home">Home</a>
+      </li>
+      <li>
+        <a href="#work">Projects</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li> 
+    </ul>
+  </nav>
+</header>
+    
+<!-- intro -->
+<div class="grid grid-cols-1 gap-4 p-4">
+  <div class="container mx-auto" id="home">
+    <h2 class="text-3xl font-bold mb-5 pt-5">Martin Hjorth Rohde</h2>
+    <h3 class="text-xl mb-4 font-bold">Aspiring Data Analyst | Programmer | App Developer</h3>
+    <p class="mb-4">
+        With an AP in Computer Science and a passion for data analysis, programming, and app development, I thrive on solving complex problems through technology. I enjoy working with data to uncover insights, building efficient applications, and continuously expanding my technical skill set.
+    </p>
+    <p class="mb-4">
+        I’m eager to apply my knowledge in real-world projects, contribute to innovative solutions, and grow as a professional in the tech industry.
+    </p>
+    <p>
+        If you're looking for a results-driven professional who can bridge the gap between data and technology, let's connect.
+    </p>
+</div>
+
+<!-- latest work -->
+<div id="work" class="container mx-auto mt-5">
+  <h3 class="text-xl mb-4 font-bold">Latest work:</h3>
+  <div class="grid grid-cols-3 gap-4 border rounded mt-2 p-1">
+    <div class="col-span-1">
+      <img src="assets/lemonadeStand.PNG" alt="lemonadestand">
+    </div>
+    <div class="col-span-2">
+      <h4>Lemonade stand</h4>
+      <p>Small application for a lemonade stand made in class.</br></br>
+          Can +5 when selling lemonade, and -2 when buying lemons.</br>
+          Got usage of localStorage, so the value is stored in the browser.</br></br>
+          Run command: npm run dev</br></br>
+          Running on port 3000 Port can be changed in vite.config.js</br></br>
+          Find it on github: <a href="https://github.com/Zaah91/lemonade-stand" target="_blank">https://github.com/Zaah91/lemonade-stand</a>
+      </p>
+    </div>
+  </div>
+  <div class="grid grid-cols-3 gap-4 border rounded mt-2 p-1">
+    <div class="col-span-1">
+      <img src="assets/snowman.png" alt="snowman">
+    </div>
+    <div class="col-span-2">
+      <h4>The snowman - 3D</h4>
+      <p>Part of the education, with focus on 3D in web applications.</p>
+    </div>
+  </div>
+  <div class="grid grid-cols-3 gap-4 border rounded mt-2 p-1">
+    <div class="col-span-1">
+      <img src="assets/Red-confidential.jpg" alt="confidential">
+    </div>
+    <div class="col-span-2">
+      <h4>Confidential mobile application</h4>
+      <p>
+      Project created during my internship at DMDC.</br>
+      It involved developing their patient portal as a cross-platform app for use on iOS, Android, and the web.</br>
+      I took on the role of lead developer for the project, despite having no prior deep experience and without the ability to receive assistance from colleagues.</br>
+      The project was built using Kotlin, Flutter, and Dart.</br>
+      All documentation and planning were also carried out by me.</br>
+      The profect has biometric security, checks and registers current language and compatible for multiple devices.</br>
+      At this time, the code is not publicly available.
+      </p>
+    </div>
+  </div>
+</div>
+</div>
+<!-- contact -->
+<div id="contact" class="max-w-2xl mx-auto mt-8 p-3 border rounded">
+  <form action="/action_page.php" class="space-y-4">
+    <div>
+      <label for="name" class="block text-sm font-medium text-gray-700">Name:</label>
+      <input type="text" id="name" name="name" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="Enter name">
+    </div>
+    <div>
+      <label for="email" class="block text-sm font-medium text-gray-700">Email:</label>
+      <input type="email" id="email" name="email" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="Enter email">
+    </div>
+    <div>
+      <label for="comment" class="block text-sm font-medium text-gray-700">Message:</label>
+      <textarea id="comment" name="text" rows="5" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="Enter your message"></textarea>
+    </div>
+    <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Submit</button>
+  </form>
+  </div>
+
+<div class="bg-gray-800 text-white p-4 text-center">
+    <div>
+      <p>Github: <a href="https://github.com/Zaah91" class="hover:underline">https://github.com/Zaah91</a></p>
+    </div>  
+</div>
+
+</body>
+</html>
