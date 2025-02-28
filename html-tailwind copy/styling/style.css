@@ -8,6 +8,10 @@ body{
     background-color: eggshell;
 }
 
+main{
+    margin-bottom: 60px;
+}
+
 a{
     text-decoration: none;
 }

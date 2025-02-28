@@ -23,3 +23,41 @@ $input-shadow: none;
 @import "~bulma/sass/elements/_all";
 @import "~bulma/sass/components/_all";
 @import "~bulma/sass/layout/_all";
+
+// Custom list styles
+ul.custom-list {
+  list-style-type: square;
+  padding-left: 1.5rem;
+  li {
+    margin-bottom: 0.5rem;
+  }
+}
+
+// Custom styles to match Tailwind CSS
+.section {
+  padding-top: 3rem;
+}
+
+.navbar {
+  padding: 1rem;
+}
+
+.navbar-item {
+  padding: 0.5rem 1rem;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.columns {
+  margin-top: 1rem;
+}
+
+.column {
+  padding: 1rem;
+}
+
+.footer {
+  padding: 1rem;
+}
